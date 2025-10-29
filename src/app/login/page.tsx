@@ -10,9 +10,9 @@ export default function LoginPage() {
     <div className="w-full h-screen flex items-center justify-center bg-background p-4">
       <Card className="mx-auto max-w-sm w-full">
         <CardHeader className="text-center">
-            <div className="flex justify-center mb-2">
+            <Link href="/" className="flex justify-center mb-2">
                 <Icons.logo className="h-10 w-10 text-primary"/>
-            </div>
+            </Link>
           <CardTitle className="text-2xl font-headline">Welcome Back, Voyager</CardTitle>
           <CardDescription>Enter your email below to log in to your account</CardDescription>
         </CardHeader>
@@ -32,7 +32,7 @@ export default function LoginPage() {
               <Input id="password" type="password" required />
             </div>
             <Button type="submit" className="w-full" asChild>
-              <Link href="/">Log in</Link>
+              <Link href="/dashboard">Log in</Link>
             </Button>
             <Button variant="outline" className="w-full">
               Login with Google

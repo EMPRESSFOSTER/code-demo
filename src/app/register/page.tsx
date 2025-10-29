@@ -10,9 +10,9 @@ export default function RegisterPage() {
     <div className="w-full h-screen flex items-center justify-center bg-background p-4">
       <Card className="mx-auto max-w-sm w-full">
         <CardHeader className="text-center">
-          <div className="flex justify-center mb-2">
+          <Link href="/" className="flex justify-center mb-2">
             <Icons.logo className="h-10 w-10 text-primary" />
-          </div>
+          </Link>
           <CardTitle className="text-2xl font-headline">Join the Voyage</CardTitle>
           <CardDescription>Create your account to start learning</CardDescription>
         </CardHeader>
@@ -27,11 +27,10 @@ export default function RegisterPage() {
               <Input id="email" type="email" placeholder="m@example.com" required />
             </div>
             <div className="grid gap-2">
-                <Label htmlFor="password">Password</Label>
-                <Input id="password" type="password" />
+                <Label htmlFor="password">Password</Label>                <Input id="password" type="password" />
             </div>
             <Button type="submit" className="w-full" asChild>
-                <Link href="/">Create an account</Link>
+                <Link href="/dashboard">Create an account</Link>
             </Button>
             <Button variant="outline" className="w-full">
               Sign up with Google
