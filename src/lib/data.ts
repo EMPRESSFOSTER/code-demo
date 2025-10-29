@@ -81,7 +81,7 @@ export const lessons: Lesson[] = [
     title: 'JavaScript Essentials: Variables',
     topic: 'JavaScript',
     description: 'Understand how to store and manage data using variables.',
-    content: 'JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript specification. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles.\n\nVariables are containers for storing data values. In JavaScript, you can declare variables using `var`, `let`, or `const`. The `let` keyword allows you to declare block-scoped variables. The `const` keyword is used for variables that will not be reassigned.',
+    content: 'JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript specification. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles.\n\nVariables are containers for storing data values. In JavaScript, you can declare variables using \`var\`, \`let\`, or \`const\`. The \`let\` keyword allows you to declare block-scoped variables. The \`const\` keyword is used for variables that will not be reassigned.',
     exampleCode: {
       html: `<p id="demo"></p>`,
       css: `p {
@@ -104,6 +104,7 @@ export const placeholderImages = {
   htmlIcon: PlaceHolderImages.find(p => p.id === 'html-icon'),
   cssIcon: PlaceHolderImages.find(p => p.id === 'css-icon'),
   jsIcon: PlaceHolderImages.find(p => p.id === 'js-icon'),
+  courseIcon: PlaceHolderImages.find(p => p.id === 'course-icon'),
   projectThumbnails: [
     PlaceHolderImages.find(p => p.id === 'project-thumbnail-1'),
     PlaceHolderImages.find(p => p.id === 'project-thumbnail-2'),

@@ -19,6 +19,12 @@
       "imageHint": "code script"
     },
     {
+      "id": "course-icon",
+      "description": "Icon for a course",
+      "imageUrl": "https://images.unsplash.com/photo-1761208663343-ecaf76563308?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxlZHVjYXRpb24lMjBsZWFybmluZ3xlbnwwfHx8fDE3NjE2NTk0NjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "education learning"
+    },
+    {
       "id": "project-thumbnail-1",
       "description": "Abstract project thumbnail 1",
       "imageUrl": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMGNvZGV8ZW58MHx8fHwxNzYxNjM0MzMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
